@@ -7,21 +7,21 @@ CONFIG += c++20
 #DEFINES += QT_DISABLE_DEPRECATED_BEFORE=0x060000    # disables all the APIs deprecated before Qt 6.0.0
 
 SOURCES += \
-    FileDownloader.cpp \
-    Stats.cpp \
-    TranslationTTSWidget.cpp \
-    main.cpp \
-    mainwindow.cpp \
-    versioncontroller.cpp \
-    wordinfo.cpp
+    src\FileDownloader.cpp \
+    src\Stats.cpp \
+    src\TranslationTTSWidget.cpp \
+    src\main.cpp \
+    src\mainwindow.cpp \
+    src\versioncontroller.cpp \
+    src\wordinfo.cpp
 
 HEADERS += \
-    FileDownloader.h \
-    Stats.h \
-    TranslationTTSWidget.h \
-    mainwindow.h \
-    versioncontroller.h \
-    wordinfo.h
+    headers\FileDownloader.h \
+    headers\Stats.h \
+    headers\TranslationTTSWidget.h \
+    headers\mainwindow.h \
+    headers\versioncontroller.h \
+    headers\wordinfo.h
 
 FORMS += \
     mainwindow.ui
