@@ -105,7 +105,7 @@ void VersionController::offerDownload() {
     QMessageBox::StandardButton reply = QMessageBox::question(nullptr,"","Версия приложения устарела. Хотите скачать новую ?", QMessageBox::Yes | QMessageBox::No);
 
     if(reply == QMessageBox::Yes){
-        QString link = "https://github.com/ApostlShizy/EnglishDictionary/tags";
+        QString link = "https://github.com/ApostlShizy/EnglishDictionary/releases";
         QDesktopServices::openUrl(QUrl(link));
     }
 }
